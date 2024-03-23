@@ -23,14 +23,14 @@ jobs:
       uses: docker/login-action@v2
       with:
         registry: https://insurancecost.azurecr.io/
-        username: ${{ secrets.AzureAppService_ContainerUsername_a4cc32ec2e844236a23dfcad5648e364 }}
-        password: ${{ secrets.AzureAppService_ContainerPassword_108cdf4891ae40bb8c3b3d391de7306d }}
+        username: ${{ secrets.AzureAppService_ContainerUsername_9584cfccf21043bfb83a265fafea59e8 }}
+        password: ${{ secrets.AzureAppService_ContainerPassword_60e8911247e249b6a2f25965f5f5f92f }}
 
     - name: Build and push container image to registry
       uses: docker/build-push-action@v3
       with:
         push: true
-        tags: insurancecost.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_a4cc32ec2e844236a23dfcad5648e364 }}/insurancecostimage:${{ github.sha }}
+        tags: insurancecost.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_9584cfccf21043bfb83a265fafea59e8 }}/insurancecostimage:${{ github.sha }}
         file: ./Dockerfile
 
   deploy:
@@ -47,5 +47,5 @@ jobs:
       with:
         app-name: 'costprediction'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_36365c847b8646b2b885f51e87ff2106 }}
-        images: 'insurancecost.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_a4cc32ec2e844236a23dfcad5648e364 }}/insurancecostimage:${{ github.sha }}'
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_abf175adbfab4863b3ff57bb2204f231 }}
+        images: 'insurancecost.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_9584cfccf21043bfb83a265fafea59e8 }}/insurancecostimage:${{ github.sha }}'
