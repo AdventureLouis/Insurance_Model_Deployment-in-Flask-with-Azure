@@ -8,4 +8,6 @@ RUN pip install -r requirements.txt
 
 COPY . . 
 
-ENTRYPOINT [ "python","app.py" ]
+EXPOSE 80
+
+CMD [ "python3","app.py" ]
