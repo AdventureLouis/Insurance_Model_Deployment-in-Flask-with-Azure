@@ -14,10 +14,11 @@ def home():
 def predict():
     bmi = float(request.form["bmi"])
     New_Smoker= int(request.form["New_Smoker"])
-    prediction = model.predict([[bmi, New_Smoker]])  # this returns a list e.g. [127.20488798], so pick first element [0]
+    age= int(request.form["age"])
+    prediction = model.predict([[bmi, New_Smoker,age]])  # this returns a list e.g. [127.20488798], so pick first element [0]
     output = round(prediction[0], 2) 
 
-    return render_template('index.html', prediction_text=f'A policy holder with {bmi} bmi and {New_Smoker} smoker will incure insurance cost of  $ {output*100}K')
+    return render_template('index.html', prediction_text=f'A policy holder with {bmi} bmi,{New_Smoker} smoker  and {age} age will incure insurance cost of  $ {output}K')
 
 if __name__ == "__main__":
     app.run()
