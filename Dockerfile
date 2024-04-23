@@ -11,6 +11,5 @@ RUN apt-get update && pip install -r requirements.txt
 
 COPY . . 
 
-EXPOSE 80
 
-CMD [ "python3","app.py" ]
+CMD ["python3","app.py"]
