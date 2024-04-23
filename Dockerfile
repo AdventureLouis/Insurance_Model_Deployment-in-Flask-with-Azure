@@ -4,7 +4,10 @@ WORKDIR /app
 
 COPY './requirements.txt' .
 
-RUN pip install -r requirements.txt
+
+RUN apt update -y
+
+RUN apt-get update && pip install -r requirements.txt
 
 COPY . . 
 
