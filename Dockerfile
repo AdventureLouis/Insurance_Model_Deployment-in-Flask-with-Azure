@@ -6,8 +6,9 @@ COPY './requirements.txt' .
 
 RUN pip install -r requirements.txt
 
+RUN apt update -y
+
 COPY . . 
 
-EXPOSE 80
 
 CMD [ "python3","app.py" ]
