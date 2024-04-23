@@ -21,7 +21,7 @@ def predict():
     return render_template('index.html', prediction_text=f'A policy holder with {bmi} bmi,{New_Smoker} smoker  and {age} age will incure insurance cost of  $ {output}K')
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0",port=80)
+    app.run()
 
 
 
