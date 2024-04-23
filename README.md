@@ -30,11 +30,16 @@ Github actions
 
 
 # Project Flowchart
-<img width="1247" alt="Project_Flowchart" src="https://github.com/AdventureLouis/Insurance_Model_Deployment/assets/161846069/e061b236-d545-461b-ba8b-d6c6dd7dcef0">
+<img width="1247" alt="Project_Flowchart" src="https://github.com/AdventureLouis/Insurance_Model_Deployment/assets/161846069/98e284df-355f-40db-a4b1-123b50e72cbd">
+
 
 # Deployed Model Video Demo
 
 
-https://github.com/AdventureLouis/Insurance_Model_Deployment/assets/161846069/e11dfe55-c6ba-4121-b5a6-42cf5ec4b9b5
+
+
+https://github.com/AdventureLouis/Insurance_Model_Deployment/assets/161846069/0a56a2cf-c24d-47ba-ab51-53179061a8ed
+
+
 
 
