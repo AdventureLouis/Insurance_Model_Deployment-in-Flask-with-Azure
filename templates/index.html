@@ -62,7 +62,7 @@ label {
     </nav>
     <div class="login">
 		<h2>Insurance Cost Prediction</h2>
-			<p>Introduce the policy holder bmi and whether they smoke or not:</p>
+			<p>For field NewSmoker below you either input 0 for non smokers or 1 for smokers:</p>
 			<form action="{{url_for('predict')}}" method="post">
 				<input type="text" name="bmi" placeholder="BMI" required="required">
 				<input type="text" name="New_Smoker" placeholder="NewSmoker" required="required">
