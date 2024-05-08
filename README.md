@@ -41,5 +41,6 @@ Github actions
 https://github.com/AdventureLouis/Insurance_Model_Deployment/assets/161846069/0a56a2cf-c24d-47ba-ab51-53179061a8ed
 
 
-
+Run the app locally with below command:
+python app.py
 
