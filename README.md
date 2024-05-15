@@ -1,12 +1,15 @@
 # Insurance_Model_Deployment
-This repository is a project I decided to create out of curiosity.All model building steps and deployments steps was done by Louis Adibe
+This repository is a project I decided to create out of curiosity.All model building steps and deployments steps was done by Louis Adibe.
+<br>
 In the front end,you need to input values for 3 variables BMI,New Smoker and age. For the New Smoker variable,you can either input "1" or "0"
 <br>
-New Smoker variable: 1-->represents smokers
+New Smoker variable:  
+                  <br>
+                    1-->represents smokers
                       <br>
                      0-->represents non smokers
 <br>
-The dataset and jupyter notebook for building the machine learning model can also be found in this repository
+The dataset and jupyter notebook used for building the machine learning model can also be found in this repository
 
 ### How to run the App
 In order to run the python flask in your terminal type "python app.py"
