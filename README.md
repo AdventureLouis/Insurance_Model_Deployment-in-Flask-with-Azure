@@ -1,5 +1,5 @@
 # Insurance_Model_Deployment
-This repository is a project I decided to create out curiosity.All model building steps and deployments steps was done by Louis Adibe
+This repository is a project I decided to create out of curiosity.All model building steps and deployments steps was done by Louis Adibe
 In the front end,you need to input values for 3 variables BMI,New Smoker and age. For the New Smoker variable,you can either input "1" or "0"
 <br>
 New Smoker variable: 1-->represents smokers
