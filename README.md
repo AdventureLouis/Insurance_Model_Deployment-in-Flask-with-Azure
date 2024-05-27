@@ -221,6 +221,12 @@ Now this is the second step of the entire project
 <br>
 After building the model, now is the time to publish or deploy the model
 <br>
+
+### (2b) Publish model with Fast API
+So in order to use fastAPi I created a virtual environment and name it fast_api_ml,below is a screenshot after the FastApi was implemented
+![Fast_Api_Documentation](https://github.com/AdventureLouis/Insurance_Model_Deployment-in-Flask-and-FastAPI/assets/161846069/f8e2f912-1ab7-402c-9489-5ac0af47fafa)
+
+
 I will be deploying the model to a cloud platform and for this project, I have decided to deploy the model to the AZURE cloud.
 
 ![image](https://github.com/AdventureLouis/Insurance_Model_Deployment/assets/161846069/55218bbd-eb9a-4b8a-9f0b-33505681c754)
