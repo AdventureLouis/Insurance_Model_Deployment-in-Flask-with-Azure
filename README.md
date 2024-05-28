@@ -25,7 +25,7 @@ Pandas(for data cleaning, data manipulation, and exploration),,Sklearn(for build
 Excel(Pre-data cleaning)
 Powerpoint(for flowchart design)
 ### Backend framework used:
-Flask(for web framework)
+Flask(for web framework) and FastAPI
 ### Front-end framework used:
 Bootstrap(Css&Html(for web layout styling and design)
 ### Azure resources used:
